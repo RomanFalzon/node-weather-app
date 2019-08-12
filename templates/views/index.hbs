@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{>head}}
+        
+    </head>
+    <body>
+        <div class="site-content"></div>
+            {{>header}}
+            <div class="hero" data-bg-image="images/city.jpg">
+				<div class="container">
+					<form action="#" class="find-location">
+						<input type="text" placeholder="Find your location...">
+						<input type="submit" value="Search">
+					</form>
+
+				</div>
+			</div>
+            {{>forecastTable}}
+        
+            {{>footer}}
+    </div>
+            <script src="/js/appWeather.js"></script>
+            {{>scriptp}}
+    </body>
+</html> 
