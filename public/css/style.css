@@ -1675,3 +1675,28 @@ form textarea {
     .site-footer .social-links a:hover {
       background: #009ad8;
       color: white; }
+
+      @media screen and (min-width: 375px) {
+        .day {
+          font-size: 65%;
+        text-align: center; 
+      }
+    .day-wed{
+      margin-left: -5px;
+    }
+  .forecast-icon img{
+    
+    width: 40px;
+    margin-left: -10px;
+    
+  }
+.degree{
+  font-size: 100% !important;
+}
+small{
+  font-size: 80% !important;
+}
+.main-icon img{
+  width: 70px;
+}
+ }
