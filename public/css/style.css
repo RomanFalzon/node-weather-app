@@ -1676,7 +1676,7 @@ form textarea {
       background: #009ad8;
       color: white; }
 
-      @media screen and (min-width: 375px) {
+      @media screen and (min-width: 250px) {
         .day {
           font-size: 65%;
         text-align: center; 
@@ -1691,12 +1691,36 @@ form textarea {
     
   }
 .degree{
-  font-size: 100% !important;
+  font-size: 100%;
 }
 small{
-  font-size: 80% !important;
+  font-size: 80%;
 }
 .main-icon img{
   width: 70px;
 }
  }
+ @media screen and (min-width: 600px) {
+  .day {
+    font-size: 100%;
+  text-align: center; 
+}
+.day-wed{
+margin-left: -5px;
+}
+.forecast-icon img{
+
+width: 40px;
+margin-left: -10px;
+
+}
+.degree{
+font-size: 100%;
+}
+small{
+font-size: 80%;
+}
+.main-icon img{
+width: 70px;
+}
+}
